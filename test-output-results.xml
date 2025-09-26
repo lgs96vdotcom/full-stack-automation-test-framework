@@ -1,0 +1,6 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="2.0347389999999996">
+<testsuite name="api/temp.spec.ts" timestamp="2025-09-25T23:25:11.932Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.067" errors="0">
+<testcase name="gets the json from api and adds a new fruit" classname="api/temp.spec.ts" time="1.067">
+</testcase>
+</testsuite>
+</testsuites>
