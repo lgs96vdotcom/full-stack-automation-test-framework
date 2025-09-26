@@ -69,7 +69,7 @@ It provides a unified solution for both API and UI test automation, it enables d
   
     
 ## Test execution
-# after you configure your env variables - see point #3 and #4 from the Installaing section. And point #1 from instructions section above
+ After you configure your env variables - see point #3 and #4 from the Installaing section. And point #1 from instructions section above
 1. Use following commands to run the tests and open allure reports
     npx playwright test 
     npx allure generate ./allure-results --clean
@@ -79,8 +79,8 @@ It provides a unified solution for both API and UI test automation, it enables d
     npx playwright tests/api
 
 ## Future Enhancements
-## TBD - adding Page Object design patern tests for sample application
-## TBD - test tagging for smoke 
+ TBD - adding Page Object design patern tests for sample application
+ TBD - test tagging for selective test execution
 
 
 
