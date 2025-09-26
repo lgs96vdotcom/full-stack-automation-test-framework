@@ -28,13 +28,12 @@ export default defineConfig({
     ["html"],
     ["list"], 
     ['allure-playwright'], // allure reporter
-  ]  
+  ],  
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    // baseURL: 'http://localhost:3000',
-    baseURL: 'https://www.floqast.com/' ,  // temp url to land on
-
+    baseURL: 'http://localhost:3000',
+    
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     actionTimeout: 0,

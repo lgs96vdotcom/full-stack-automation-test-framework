@@ -11,13 +11,7 @@ export async function logApiResponse(
   const url = responseobj.url();
   const bodyText = await responseobj.text();
 
-  const log = {
-    url,
-    status,
-    body: tryParseJson(bodyText),
-  };
-
-  console.log("\n======= ${label} =======");
+  console.log("\n======= ${label} =======\n");
   console.log("URL: ${url}");
   console.log("Status: ${status}");
   console.log("Body: ${bodyText}");
