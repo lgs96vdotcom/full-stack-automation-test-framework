@@ -1,8 +1,7 @@
 import { test, expect } from "@playwright/test";
 import { transactiondataFactory } from "../../lib/datafactory/transactiondata";
 
-
-test.describe("UI - Transaction Flow", () => {
+test.describe("UI test - Transaction Flow", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("/mock-ui/transaction");
   });

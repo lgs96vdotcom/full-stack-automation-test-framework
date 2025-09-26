@@ -6,8 +6,8 @@ export const userjsondataFactory = () => ({
   accountType: "premium"
 });
 
-// for temp.spec.ts
-export const userjson = () => ({   
-     name: 'Loquat',
+// for checking mytest-mockapi.spec.ts
+export const newFruitjson = () => ({   
+     name: 'Grapes',
      id: 100 
 });

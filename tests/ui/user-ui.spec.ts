@@ -1,7 +1,6 @@
 import { test, expect } from "@playwright/test";
 import { userjsondataFactory } from "../../lib/datafactory/userdata";
 
-const allure = require("allure-js-commons"); // For allure reporting 
 // Mock frontend page for user registration
 test.describe("UI - User Registration Flow", () => {
   test.beforeEach(async ({ page }) => {
@@ -10,10 +9,6 @@ test.describe("UI - User Registration Flow", () => {
   });
 
   test("Successful User Registration", async ({ page }) => {
-    allure.label({ name: "suite", value: "Successful User Registration" });
-    allure.story("User registration flow");
-    allure.owner("Lalit Sharma");
-    
     const mockedUser = userjsondataFactory();
 
     // Mock the backend API response
