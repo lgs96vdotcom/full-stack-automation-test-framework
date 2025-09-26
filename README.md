@@ -79,8 +79,10 @@ It provides a unified solution for both API and UI test automation, it enables d
     npx playwright tests/api
 
 ## Future Enhancements
- TBD - adding Page Object design patern tests for sample application
- TBD - test tagging for selective test execution
+(Stay tuned)
+ TBD - adding Page Object design patern UI tests for a sample application
+ TBD - adding ability to tag tests for selective test execution
+ TBD - 
 
 
 

@@ -18,7 +18,7 @@
 //  }
 
 //  async goto(){
-//     await this.page.goto("https://www.floqast.com/");
+//     await this.page.goto("http://localhost:3000'");
 //  }
 
 //  async clickSkilljarGetStarted() {
