@@ -78,11 +78,8 @@ It provides a unified solution for both API and UI test automation, it enables d
 2. Use the following cmd to run only API tests
     npx playwright tests/api
 
-## Future Enhancements
-(Stay tuned)
- TBD - adding Page Object design patern UI tests for a sample application
- TBD - adding ability to tag tests for selective test execution
- TBD - 
+
+ 
 
 
 
