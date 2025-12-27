@@ -39,14 +39,17 @@ Is is ideal for teams that want:
   Formatted API debug logs
 
 ##Tech Stack
-  Automation Framework = Playwright (TypeScript)
-  API Handling =	Playwright mocks + custom API utils
-  Test Runner =	Playwright Test
-  Reporting	= HTML Reports, Allure
-  Environment Config =	dotenv
-  Data Factories =TypeScript modules
 
+| Layer                | Technology                          |
+| -------------------- | ----------------------------------- |
+| Automation Framework | **Playwright (TypeScript)**         |
+| API Handling         | Playwright mocks + custom API utils |
+| Test Runner          | Playwright Test                     |
+| Reporting            | HTML Reports, **Allure**            |
+| Environment Config   | dotenv                              |
+| Data Factories       | TypeScript modules                  |
 
+ 
 
 ## Installing 
 1. Install node.js (https://nodejs.org/en/download)
