@@ -1,6 +1,51 @@
 ### full-stack-automation-test-framework ###
-This framework solves the challenge of maintaining separate test suites for different layers of an application. This framework leverage Playwright with Typescript. 
-It provides a unified solution for both API and UI test automation, it enables developers and QA engineers to build scalable and reliable end-2-end test coverage. The goal is to streamline testing efforts and catch bugs earlier, shift left in the dev cycle.
+This framework provides a single, scalable solution for e2e automation across API and UI layers using Playwright with Typescript.
+It elimnates the need for maintaining separate test suites and enables true shift-left testing, allowing bugs to be identified earlier in the development cycle.
+
+Is is ideal for teams that want:
+1. Consistenent testing across layers
+2. Mocked BE + UI flows
+3. Scalable automation atchitecture
+4. Fast, maintable test code
+5. CI/CD readiness with Allure reporting
+
+#Features
+  Unified Test Architecture
+  Single framework for API + UI + E2E
+  Modular design with reusable utilities
+  Mocking backend responses using page.route()
+  
+#API Test Capabilities
+  CRUD operation testing
+  Auth & authorization flows
+  Robust error-handling scenarios
+  Data validation + JSON schema checks
+
+#UI Test Capabilities
+  User registration flow
+  Transaction creation
+  UI error/assertion validations
+  Mock-driven UI simulation
+
+#Utilities & Helpers
+  Test data factories
+  Custom API assertions
+  Logger utilities
+  Environment variable handling
+
+#Reporting
+  HTML reports with screenshots & videos
+  Allure advanced reports
+  Formatted API debug logs
+
+##Tech Stack
+  Automation Framework = Playwright (TypeScript)
+  API Handling =	Playwright mocks + custom API utils
+  Test Runner =	Playwright Test
+  Reporting	= HTML Reports, Allure
+  Environment Config =	dotenv
+  Data Factories =TypeScript modules
+
 
 
 ## Installing 
@@ -79,7 +124,10 @@ It provides a unified solution for both API and UI test automation, it enables d
     npx playwright tests/api
 
 
- 
+## Contributing 
+Contributions, suggestions, and improvements are welcome!
+Feel free to open issues or submit PRs. 
 
-
+## Like This Framework?
+If you found it useful, give the repo a star ⭐ to support continued improvements!
 
